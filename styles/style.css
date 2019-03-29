@@ -1,0 +1,25 @@
+body {
+  background-image: url(../images/wall.png);
+  background-repeat: no-repeat;
+}
+
+.header {
+  background-color: rgba(218,24,132,0.5);
+  height: 35px;
+  padding-left: 5px;
+}
+
+.header__icons {
+  list-style-type: none;
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  color: white;
+
+}
+
+.header__date_size {
+  width: 1145px;
+  text-align: center;
+}
