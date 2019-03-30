@@ -1,12 +1,14 @@
 body {
-  background-image: url(../images/wall.png);
+  background-image: url(../images/neon.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header {
-  background-color: rgba(218,24,132,0.5);
+  background-color: rgba(141, 200, 232, 0.2);
   height: 35px;
   padding-left: 5px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .header__icons {
@@ -15,11 +17,25 @@ body {
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 10px;
+  opacity: 0.7;
   color: white;
-
 }
 
 .header__date_size {
   width: 1145px;
   text-align: center;
 }
+
+.aside__menu {
+  background-color: rgba(141, 200, 232, 0.2);
+  width: 70px;
+  margin-top: 145px;
+  text-align: center;
+  padding-top: 4px;
+  border-radius: 0px 6px 6px 0px;
+  }
+
+  .icons_hover:hover {
+    transform: scale(1.07);
+    transition: all .1s ease-in-out;
+  }
