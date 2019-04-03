@@ -1,0 +1,112 @@
+body {
+  background: linear-gradient(to bottom right, black, #24135F);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(to bottom right, #5BC2E7, #E10098);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+* {
+  outline: none;
+}
+
+.container {
+  margin-left: 80px;
+  margin-right: 65px;
+  color: rgba(255,250,250,0.7);
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+.capitan {
+  margin-top: 100px;
+  width: 400px;
+  height: auto;
+  float: left;
+}
+
+.bucky {
+  margin-top: 100px;
+  width: 400px;
+  height: auto;
+  float: left;
+}
+
+.section {
+  display: block;
+  text-align: center;
+}
+
+.form {
+  width: 400px;
+  text-align: center;
+  float: left;
+}
+
+.form__field {
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  background-color: transparent;
+  border-color: rgba(135, 2, 123, 1);
+  color: rgba(255,250,250,0.7);
+}
+
+.form__field:focus {
+
+}
+
+.section__button {
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 400px;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  background-color: transparent;
+  border-color: rgba(135, 2, 123, 1);
+}
+
+
+.checkbox_policy {
+  font-size: 12px;
+  float: right;
+  padding: 0;
+}
+
+input[type="submit"],
+input[type="button"] {
+  background: rgba(135, 2, 123, 0.5);
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  float: left;
+  border-width: 2px;
+  border-style: inset;
+  border-color: rgba(135, 2, 123, 1);
+  width: 100px;
+  height: 30px;
+  padding: 0;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background: rgba(255, 255, 255, 0);
+}
